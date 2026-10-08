@@ -1,0 +1,22 @@
+Package: myTestPkg
+Title: myTestPkg with a workflow 
+Version: 1.5.1
+Authors@R: c(
+    person("Andres", "Wokaty", , "andres.wokaty@sph.cuny.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0008-0900-8793"))
+  )
+Description: A test package with a Github Action Workflow.
+URL: https://github.com/jwokaty/myTestPkg
+BugReports: https://github.com/jwokaty/myTestPkg/issues
+biocViews: Software 
+License: Artistic License 2.0
+Imports:
+Suggests:
+    BiocStyle,
+    knitr,
+    testthat (>= 3.0.0),
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.0
