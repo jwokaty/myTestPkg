@@ -1,0 +1,30 @@
+---
+title: myTestPkg 
+author:
+- name: A Wokaty
+  affiliation: CUNY School of Public Health
+  email: andres.wokaty@sph.cuny.edu
+package: myTestPkg 
+output: 
+  BiocStyle::html_document
+vignette: >
+  %\VignetteIndexEntry{myTestPkg}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}  
+---
+
+# Introduction
+
+This is how you run my package.
+
+```{r library}
+library(myTestPkg)
+
+myTestPkg()
+```
+
+# SessionInfo()
+
+```{r sessionInfo}
+sessionInfo()
+```

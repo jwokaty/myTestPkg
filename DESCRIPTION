@@ -1,6 +1,6 @@
 Package: myTestPkg
 Title: myTestPkg with a workflow 
-Version: 1.5.1
+Version: 0.99.0
 Authors@R: c(
     person("Andres", "Wokaty", , "andres.wokaty@sph.cuny.edu", role = c("aut", "cre"),
            comment = c(ORCID = "0009-0008-0900-8793"))
