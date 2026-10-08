@@ -6,7 +6,6 @@ Authors@R: c(
            comment = c(ORCID = "0009-0008-0900-8793"))
   )
 Description: A test package with a Github Action Workflow.
-URL: https://github.com/jwokaty/myTestPkg
 BugReports: https://github.com/jwokaty/myTestPkg/issues
 biocViews: Software 
 License: Artistic License 2.0
@@ -20,3 +19,4 @@ Roxygen: list(markdown = TRUE)
 VignetteBuilder: knitr
 Config/testthat/edition: 3
 Config/roxygen2/version: 8.1.0
+URL: https://tempbioc.r-universe.dev/myTestPkg
